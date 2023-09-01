@@ -8,6 +8,10 @@
   grid-gap: 6rem;
   // feature box to start, instead of stretch (default)
   align-items: start;
+
+  @media only screen and (max-width: $bp-small) {
+    margin: 8rem 0;
+  }
 }
 
 .feature {
